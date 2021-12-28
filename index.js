@@ -8,8 +8,6 @@ let country = "India";
 let latitude = 0;
 let longitude = 0;
 
-/*------------------------------------------------------------*/
-
 /*----------------------Location Setters----------------------*/
 
 async function fetchDataManually() {
@@ -54,8 +52,6 @@ document.getElementById("location-info").addEventListener("click", () => {
     document.querySelector('body').classList.remove('blur');
     setData('manual');
 });
-
-/*------------------------------------------------------------*/
 
 /*-----------------------Data Displayer-----------------------*/
 
@@ -131,8 +127,6 @@ async function setData(mode) {
     }
 }
 
-/*------------------------------------------------------------*/
-
 /*----------------------Location fetcher----------------------*/
 
 function getLocation() {
@@ -169,8 +163,6 @@ function showLocationError(error) {
     }
     changeVisibility("error", "block");
 }
-
-/*------------------------------------------------------------*/
 
 /*----------------------Helper Functions----------------------*/
 
