@@ -83,7 +83,7 @@ async function setData(mode) {
 
         for (n in namaz1) {
             document.getElementById(n).innerHTML = tConvert(namaz1[n]);
-            console.log(n, namaz1[n]);
+            //console.log(n, namaz1[n]);
         }
 
         document.getElementById(
